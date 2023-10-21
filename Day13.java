@@ -24,19 +24,19 @@ public class Day13 {
             int pajak = (int)(hargajual * 0.05);//(int) digunakan untuk mengkonversi hasilnya menjadi bilangan bulat, karena jika tidak maka hasilnya akan menjadi desimal
             System.out.println("Harga Pajak : Rp. " + pajak );
             int uangbersih = hargajual - pajak;
-            System.out.println("Uang bersih yang diterima jika dikenakan pajak 5% adalah Rp. " + uangbersih );
+            System.out.println("Uang bersih yang diterima dari penjualan tanah jika dikenakan pajak 5% adalah Rp. " + uangbersih );
         } else if(hargajual < 100000000 && hargajual > 50000000){
             System.out.println("Dikenakan pajak 3%");
             int pajak = (int)(hargajual * 0.03);//(int) digunakan untuk mengkonversi hasilnya menjadi bilangan bulat, karena jika tidak maka hasilnya akan menjadi desimal
             System.out.println("Harga Pajak : Rp. " + pajak );
             int uangbersih = hargajual - pajak;
-            System.out.println("Uang bersih yang diterima jika dikenakan pajak 3% adalah Rp. " + uangbersih );
+            System.out.println("Uang bersih yang diterima dari penjualan tanah jika dikenakan pajak 3% adalah Rp. " + uangbersih );
         } else {
             System.out.println("Dikenakan pajak 1%");
             int pajak = (int)(hargajual * 0.03);//(int) digunakan untuk mengkonversi hasilnya menjadi bilangan bulat, karena jika tidak maka hasilnya akan menjadi desimal
             System.out.println("Harga Pajak : Rp. " + pajak );
             int uangbersih = hargajual - pajak;
-            System.out.println("Uang bersih yang diterima jika dikenakan pajak 1% adalah Rp. " + uangbersih );
+            System.out.println("Uang bersih yang diterima dari penjualan tanah jika dikenakan pajak 1% adalah Rp. " + uangbersih );
         }
         
     }
